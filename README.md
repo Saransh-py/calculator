@@ -33,10 +33,10 @@ def add(num1 = None, num2 = None):
     elif num2 == None:
         raise Exception("You can't use a empty number")
         return
-    elif num1 == str:
+    elif num1 == str(num1)
         raise Exception("You must use a integer")
         return
-    elif num2 == str:
+    elif num2 == str(num2):
         raise Exception("You must use a integer")
         return
 
@@ -51,10 +51,10 @@ def sub(num1 = None, num2 = None):
     elif num2 == None:
         raise Exception("You can't use a empty number")
         return
-    elif num1 == str:
+    elif num1 == str(num1):
         raise Exception("You must use a integer")
         return
-    elif num2 == str:
+    elif num2 == str(num2):
         raise Exception("You must use a integer")
         return
 
@@ -68,10 +68,10 @@ def mul(num1 = None, num2 = None):
     elif num2 == None:
         raise Exception("You can't use a empty number")
         return
-    elif num1 == str:
+    elif num1 == str(num1):
         raise Exception("You must use a integer")
         return
-    elif num2 == str:
+    elif num2 == str(num2):
         raise Exception("You must use a integer")
         return
 
@@ -84,10 +84,10 @@ def divrounded(num1 = None, num2 = None):
     elif num2 == None:
         raise Exception("You can't use a empty number")
         return
-    elif num1 == str:
+    elif num1 == str(num1):
         raise Exception("You must use a integer")
         return
-    elif num2 == str:
+    elif num2 == str(num2):
         raise Exception("You must use a integer")
         return
         
